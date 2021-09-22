@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunaChartExamples", "GunaChartExamples\GunaChartExamples.csproj", "{50742F47-185E-4AAB-A0A3-D991F558D846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50742F47-185E-4AAB-A0A3-D991F558D846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50742F47-185E-4AAB-A0A3-D991F558D846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50742F47-185E-4AAB-A0A3-D991F558D846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50742F47-185E-4AAB-A0A3-D991F558D846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37935893-2CE0-44E5-B6BB-84C726D14D57}
+	EndGlobalSection
+EndGlobal
