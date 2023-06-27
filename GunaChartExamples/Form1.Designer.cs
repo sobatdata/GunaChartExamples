@@ -29,27 +29,27 @@ namespace GunaChartExamples
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.Charts.WinForms.ChartFont chartFont73 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont74 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont75 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.ChartFont chartFont76 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid28 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick28 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont77 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid29 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.Tick tick29 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont78 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Grid grid30 = new Guna.Charts.WinForms.Grid();
-            Guna.Charts.WinForms.PointLabel pointLabel10 = new Guna.Charts.WinForms.PointLabel();
-            Guna.Charts.WinForms.ChartFont chartFont79 = new Guna.Charts.WinForms.ChartFont();
-            Guna.Charts.WinForms.Tick tick30 = new Guna.Charts.WinForms.Tick();
-            Guna.Charts.WinForms.ChartFont chartFont80 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont1 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont2 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont3 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.ChartFont chartFont4 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid1 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick1 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont5 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid2 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.Tick tick2 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont6 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Grid grid3 = new Guna.Charts.WinForms.Grid();
+            Guna.Charts.WinForms.PointLabel pointLabel1 = new Guna.Charts.WinForms.PointLabel();
+            Guna.Charts.WinForms.ChartFont chartFont7 = new Guna.Charts.WinForms.ChartFont();
+            Guna.Charts.WinForms.Tick tick3 = new Guna.Charts.WinForms.Tick();
+            Guna.Charts.WinForms.ChartFont chartFont8 = new Guna.Charts.WinForms.ChartFont();
             this.gunaChart1 = new Guna.Charts.WinForms.GunaChart();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,37 +59,37 @@ namespace GunaChartExamples
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.gunaChart1.BackColor = System.Drawing.Color.White;
-            chartFont73.FontName = "Arial";
-            this.gunaChart1.Legend.LabelFont = chartFont73;
+            chartFont1.FontName = "Arial";
+            this.gunaChart1.Legend.LabelFont = chartFont1;
             this.gunaChart1.Location = new System.Drawing.Point(200, 54);
             this.gunaChart1.Name = "gunaChart1";
             this.gunaChart1.Size = new System.Drawing.Size(795, 581);
             this.gunaChart1.TabIndex = 0;
-            chartFont74.FontName = "Arial";
-            chartFont74.Size = 12;
-            chartFont74.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChart1.Title.Font = chartFont74;
-            chartFont75.FontName = "Arial";
-            this.gunaChart1.Tooltips.BodyFont = chartFont75;
-            chartFont76.FontName = "Arial";
-            chartFont76.Size = 9;
-            chartFont76.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
-            this.gunaChart1.Tooltips.TitleFont = chartFont76;
-            this.gunaChart1.XAxes.GridLines = grid28;
-            chartFont77.FontName = "Arial";
-            tick28.Font = chartFont77;
-            this.gunaChart1.XAxes.Ticks = tick28;
-            this.gunaChart1.YAxes.GridLines = grid29;
-            chartFont78.FontName = "Arial";
-            tick29.Font = chartFont78;
-            this.gunaChart1.YAxes.Ticks = tick29;
-            this.gunaChart1.ZAxes.GridLines = grid30;
-            chartFont79.FontName = "Arial";
-            pointLabel10.Font = chartFont79;
-            this.gunaChart1.ZAxes.PointLabels = pointLabel10;
-            chartFont80.FontName = "Arial";
-            tick30.Font = chartFont80;
-            this.gunaChart1.ZAxes.Ticks = tick30;
+            chartFont2.FontName = "Arial";
+            chartFont2.Size = 12;
+            chartFont2.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChart1.Title.Font = chartFont2;
+            chartFont3.FontName = "Arial";
+            this.gunaChart1.Tooltips.BodyFont = chartFont3;
+            chartFont4.FontName = "Arial";
+            chartFont4.Size = 9;
+            chartFont4.Style = Guna.Charts.WinForms.ChartFontStyle.Bold;
+            this.gunaChart1.Tooltips.TitleFont = chartFont4;
+            this.gunaChart1.XAxes.GridLines = grid1;
+            chartFont5.FontName = "Arial";
+            tick1.Font = chartFont5;
+            this.gunaChart1.XAxes.Ticks = tick1;
+            this.gunaChart1.YAxes.GridLines = grid2;
+            chartFont6.FontName = "Arial";
+            tick2.Font = chartFont6;
+            this.gunaChart1.YAxes.Ticks = tick2;
+            this.gunaChart1.ZAxes.GridLines = grid3;
+            chartFont7.FontName = "Arial";
+            pointLabel1.Font = chartFont7;
+            this.gunaChart1.ZAxes.PointLabels = pointLabel1;
+            chartFont8.FontName = "Arial";
+            tick3.Font = chartFont8;
+            this.gunaChart1.ZAxes.Ticks = tick3;
             // 
             // radioButton1
             // 
@@ -122,6 +122,14 @@ namespace GunaChartExamples
             this.panel1.Size = new System.Drawing.Size(183, 647);
             this.panel1.TabIndex = 3;
             // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
+            this.panel2.Location = new System.Drawing.Point(-10, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(5, 5);
+            this.panel2.TabIndex = 0;
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DodgerBlue;
@@ -136,14 +144,6 @@ namespace GunaChartExamples
             this.button1.Text = "{  }";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
-            this.panel2.Location = new System.Drawing.Point(-10, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(5, 5);
-            this.panel2.TabIndex = 0;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -156,6 +156,7 @@ namespace GunaChartExamples
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.gunaChart1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Guna Chart Examples";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

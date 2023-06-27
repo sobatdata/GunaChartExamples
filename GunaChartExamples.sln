@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GunaChartExamples", "GunaChartExamples\GunaChartExamples.csproj", "{50742F47-185E-4AAB-A0A3-D991F558D846}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GunaChartExamplesVB", "GunaChartExamplesVB\GunaChartExamplesVB.vbproj", "{536E9B3B-170D-4313-A77A-3E8695B05EFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{50742F47-185E-4AAB-A0A3-D991F558D846}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50742F47-185E-4AAB-A0A3-D991F558D846}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50742F47-185E-4AAB-A0A3-D991F558D846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536E9B3B-170D-4313-A77A-3E8695B05EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536E9B3B-170D-4313-A77A-3E8695B05EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536E9B3B-170D-4313-A77A-3E8695B05EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536E9B3B-170D-4313-A77A-3E8695B05EFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

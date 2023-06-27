@@ -1,27 +1,29 @@
-﻿using System; 
-using System.Drawing; 
+﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace GunaChartExamples
 {
     public partial class Form1 : Form
     {
-        private string selected = string.Empty; 
+        private string selected = string.Empty;
         public Form1()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {  
+        {
             string[] names = { "Area", "Bar", "Bubble", "Doughnut", "HorizontalBar", "Line", "Pie", "PolarArea", "Radar", "RoundedBar", "Scatter", "Spline", "SplineArea", "StackedBar", "StackedHorizontalBar", "SteppedArea", "SteppedLine", "MixedBarAndArea", "MixedBarAndLine", "MixedBarAndSpline", "MixedBarAndSplineArea", "MixedBarAndSteppedArea", "MixedBarAndSteppedLine" };
             panel1.BackColor = Color.FromArgb(20, 0, 0, 0);
-            for (int i = names.Length - 1; i > -1; i--)
+
+
+            for (int i = names.Length - 1; i >= 0; i--)
             {
                 var button = new Button()
                 {
                     BackColor = Color.Empty,
-                    Text = names[i], 
+                    Text = names[i],
                     TextAlign = ContentAlignment.MiddleLeft,
                     Dock = DockStyle.Top,
                     Height = 25,
@@ -38,23 +40,23 @@ namespace GunaChartExamples
                     selected = button.Text;
                     SelectBasicExamples(selected);
                     panel2.Size = new Size(5, button.Height);
-                    panel2.Location = new Point(panel1.Width - 5,button.Top);
+                    panel2.Location = new Point(panel1.Width - 5, button.Top);
                     panel2.BringToFront();
                 };
                 panel1.Controls.Add(button);
-            } 
+            }
 
             button1.Click += (s, evnt) =>
             {
                 new Form2().Show(selected);
             };
             radioButton1.CheckedChanged += (s, evnt) =>
-            { 
+            {
                 if (radioButton1.Checked)
-                { 
+                {
                     SelectBasicExamples(selected);
                     BackColor = Color.FromArgb(38, 41, 59);
-                    ForeColor = Color.LightSteelBlue; 
+                    ForeColor = Color.LightSteelBlue;
                 }
             };
             radioButton2.CheckedChanged += (s, evnt) =>
@@ -63,7 +65,7 @@ namespace GunaChartExamples
                 {
                     SelectBasicExamples(selected);
                     BackColor = Color.White;
-                    ForeColor = Color.Black; 
+                    ForeColor = Color.Black;
                 }
             };
             radioButton1.Checked = true;

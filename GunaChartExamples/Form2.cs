@@ -1,24 +1,24 @@
-﻿using System; 
-using System.Drawing; 
+﻿using System;
+using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 namespace GunaChartExamples
 {
     public partial class Form2 : Form
-    {  
+    {
         string setupName = string.Empty;
         public Form2()
         {
             InitializeComponent();
 
-            string[] names = { "Test","Setup" }; 
-            for (int i = names.Length - 1; i > -1; i--)
+            string[] names = { "Test", "Setup" };
+            for (int i = names.Length - 1; i >= 0; i--)
             {
                 var button = new Button()
                 {
                     BackColor = Color.Empty,
-                    Text = names[i], 
+                    Text = names[i],
                     TextAlign = ContentAlignment.MiddleLeft,
                     Dock = DockStyle.Top,
                     Height = 25,
@@ -31,7 +31,7 @@ namespace GunaChartExamples
                     }
                 };
                 button.Click += (s, evnt) =>
-                { 
+                {
                     ReadCode(button.Text);
                     panel2.Size = new Size(5, button.Height);
                     panel2.Location = new Point(panel1.Width - 5, button.Top);
@@ -43,13 +43,13 @@ namespace GunaChartExamples
         }
 
         private void ReadCode(string name)
-        { 
+        {
             if (setupName == string.Empty)
             {
                 richTextBox1.Text = string.Empty;
             }
             else
-            { 
+            {
                 if (name == "Setup")
                 {
                     richTextBox1.Text = System.IO.File.ReadAllText(Application.StartupPath + @"\BasicExamples\" + setupName + ".cs");
@@ -64,12 +64,12 @@ namespace GunaChartExamples
             }
         }
 
-        public void Show(string name )
+        public void Show(string name)
         {
             Text = name;
-            setupName = name; 
+            setupName = name;
             Show();
-            if( panel1.Controls[1] is Button button)
+            if (panel1.Controls[1] is Button button)
             {
                 button.PerformClick();
             }
@@ -92,7 +92,7 @@ namespace GunaChartExamples
             MatchCollection stringMaches = Regex.Matches(richTextBox.Text, "\".+?\"");
             MatchCollection numberMaches = Regex.Matches(richTextBox.Text, "\\b(?:[0-9]*\\.)?[0-9]+\\b");
             MatchCollection gunaMaches = Regex.Matches(richTextBox.Text, @"\b(GunaChart|GunaAreaDataset|GunaBarDataset|GunaBubbleDataset|GunaDoughnutDataset|GunaHorizontalBarDataset|GunaLineDataset|GunaPieDataset|GunaPolarAreaDataset|GunaRadarDataset|GunaRoundedBarDataset|GunaScatterDataset|GunaSplineDataset|GunaSplineAreaDataset|GunaStackedBarDataset|GunaStackedHorizontalBarDataset|GunaSteppedAreaDataset|GunaSteppedLine)\b");
-             
+
             int tmpIndex = richTextBox.SelectionStart;
             int tmplLength = richTextBox.SelectionLength;
 
